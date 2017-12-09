@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Snake</title>
+		<meta charset="utf-8">
+		<meta name="description" content="Snake game from Littlebear Softworks">
+		<meta name="keywords" content="snake">
+		<link rel= "stylesheet" href="bootstrap/css/bootstrap.css">
+		<link rel= "stylesheet" href="bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="snakeStyle.css">
+	</head>
+	<body>
+		<div id="top">
+			<h3>Snake</h3>
+			<p>Good ol snake. Eat and grow. Try not to run into yourself.</p>
+		</div>
+		<div id="main">
+			<canvas id="myCanvas" width="600" height="400"></canvas>
+			<br/>
+			<p>Use arrow keys or buttons to move.</p>
+			<div id='btnRow'>
+				<button id="btnLft" class='btn btn-default btn-lg' value="1"><span id='spnLft' class='glyphicon glyphicon-arrow-left'></span></button>
+				<button id="btnUp" class='btn btn-default btn-lg' value="2"><span id='spnUp' class='glyphicon glyphicon-arrow-up'></span></button>
+				<button id="btnDwn" class='btn btn-default btn-lg' value="3"><span id='spnDwn' class='glyphicon glyphicon-arrow-down'></span></button>
+				<button id="btnRight" class='btn btn-default btn-lg' value="4"><span id='spnRight' class='glyphicon glyphicon-arrow-right'></span></button>
+			</div>
+		</div>
+		<script type="text/javascript" src="snake.js"></script>
+	</body>
+</html>

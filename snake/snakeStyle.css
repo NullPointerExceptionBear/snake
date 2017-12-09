@@ -1,0 +1,13 @@
+#top{
+	margin-left: 10%;
+	margin-right: 10%;
+	text-align: center;
+}
+#myCanvas{
+	border: 1px solid #000000;
+	display: block;
+	margin: auto;
+}
+#main{
+	text-align: center;
+}
